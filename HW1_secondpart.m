@@ -7,18 +7,6 @@ y4=sin(2*pi*t)+10;
 y5=sin(2*pi*(t-0.5));
 y6=10*sin(2*pi*10*t);
 y7=t.*sin(2*pi*t);
-y8=sin(2*pi*t)/t;
-y9=y1+y2+y3+y4+y5+y6+y7+y8;
-
-t = -2:0.01:2;
-
-y1=sin(2*pi*t);
-y2=sin(2*pi*10*t);
-y3=10*sin(2*pi*t);
-y4=sin(2*pi*t)+10;
-y5=sin(2*pi*(t-0.5));
-y6=10*sin(2*pi*10*t);
-y7=t.*sin(2*pi*t);
 y8=sin(2*pi*t)./t;
 y9=y1+y2+y3+y4+y5+y6+y7+y8;
 
